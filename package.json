@@ -1,0 +1,20 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "fitness application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ionut Raducu",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "parcel": "^2.10.1",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
